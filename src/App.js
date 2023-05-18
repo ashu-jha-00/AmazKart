@@ -18,7 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/apple" element={<Apple />} />
-        <Route path="/samsung" element={<Samsung />} />
+        <Route path="/google" element={<Samsung />} />
         <Route path="/electronics" element={<Electronics />} />
         <Route path="/clothing" element={<Clothing />} />
         <Route path="/sneakers" element={<Sneakers />} />

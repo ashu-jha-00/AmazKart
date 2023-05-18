@@ -47,7 +47,7 @@ const Home = () => {
     },
     {
       name: "Pixel Watch",
-      price: 120000,
+      price: 49000,
       imgSrc: img101,
       id: "sdjfdfflaajsdbhjabhsjdfdfv",
     },

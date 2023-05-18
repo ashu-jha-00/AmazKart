@@ -14,7 +14,7 @@ const Header = () => {
       </Link>
       <div>
         <Link to={"/"}>Home</Link>
-        <Link to={"/samsung"}>Google Store</Link>
+        <Link to={"/google"}>Google Store</Link>
         <Link to={"/apple"}>Apple Store</Link>
         <Link to={"/electronics"}>Electronics</Link>
         <Link to={"/clothing"}>Clothing</Link>
