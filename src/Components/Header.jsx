@@ -9,7 +9,9 @@ const Header = () => {
 
   return (
     <nav>
-      <h2>AmazKart</h2>
+      <Link to={"/"}>
+        <h2>AmazKart</h2>
+      </Link>
       <div>
         <Link to={"/"}>Home</Link>
         <Link to={"/cart"}>

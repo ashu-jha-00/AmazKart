@@ -6,9 +6,11 @@ nav {
   justify-content: space-between;
   padding: 1rem 2rem;
 
-  > h2 {
-    text-transform: uppercase;
-    color: $primary;
+  > a {
+    > h2 {
+      text-transform: uppercase;
+      color: $primary;
+    }
   }
 
   > div {
