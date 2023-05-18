@@ -66,7 +66,8 @@
       border-radius: 5px;
       cursor: pointer;
       &:hover {
-        background-color: $primarydark;
+        background-color: $secondary;
+        scale: 1.05;
       }
     }
 
@@ -86,6 +87,7 @@
 
     &:hover {
       color: $secondary;
+      scale: 1.5;
     }
   }
 }
