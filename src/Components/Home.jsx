@@ -187,7 +187,7 @@ const Home = () => {
     toast.success("Added To Cart");
   };
   return (
-    <div className="home">
+    <div className="home css-selector">
       {productList.map((i) => (
         <ProductCard
           key={i.id}

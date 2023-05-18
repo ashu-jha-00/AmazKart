@@ -10,9 +10,9 @@ const Header = () => {
   return (
     <nav>
       <Link to={"/"}>
-        <h2>AmazKart</h2>
+        <h2>Amaz-Kart</h2>
       </Link>
-      <div>
+      <div className="underline">
         <Link to={"/"}>Home</Link>
         <Link to={"/google"}>Google Store</Link>
         <Link to={"/apple"}>Apple Store</Link>

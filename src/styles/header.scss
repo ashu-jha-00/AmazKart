@@ -1,15 +1,19 @@
 @import "colors";
 
 nav {
-  background-color: $secondary;
+  // background-color: $secondary;
+  // background-color: #27187e;
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
+  color: white;
 
   > a {
     > h2 {
       text-transform: uppercase;
-      color: $primary;
+      // color: $primary;
+      color: white;
+      font-size: 2rem;
     }
   }
 
@@ -18,16 +22,18 @@ nav {
     align-items: center;
     // justify-content: space-between;
     > a {
-      color: $primary;
+      color: $tertiary;
       font-size: 1.2rem;
       margin: 0 1rem;
       transition: all 0.3s;
       &:hover {
-        opacity: 0.5;
+        // opacity: 0.5;
+        scale: 1.1;
+        // font-weight: 600; 
       }
       > p {
         position: absolute;
-        background-color: $tertiary;
+        background-color: $primary;
         border-radius: 50%;
         width: 15px;
         height: 15px;
@@ -38,4 +44,28 @@ nav {
       }
     }
   }
+}
+
+.underline a {
+  display: inline-block;
+  position: relative;
+  // color: #0087ca;
+}
+
+.underline a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -1px;
+  left: 0;
+  background-color: $tertiary;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
