@@ -10,6 +10,12 @@ const Header = () => {
   return (
     <nav>
       <Link to={"/"}>
+        <img
+          src="https://www.freeiconspng.com/uploads/basket-cart-icon-27.png"
+          width="50"
+          height="50"
+          alt="basket cart icon"
+        />
         <h2>Amaz-Kart</h2>
       </Link>
       <div className="underline">

@@ -44,6 +44,36 @@ const Electronics = () => {
       imgSrc: img4,
       id: "sdjfdlaajsdbhjabhsjdfdfv",
     },
+    {
+      name: "MacBook Air",
+      price: 85000,
+      imgSrc: img1,
+      id: "asdhajsdbhjabhsjdfdfv",
+    },
+    {
+      name: "MacBook Pro",
+      price: 195000,
+      imgSrc: img2,
+      id: "asdjsdbhjabhsjdfdfv",
+    },
+    {
+      name: "Iphone 13 128",
+      price: 99999,
+      imgSrc: img5,
+      id: "sdjfdlaajdbhjabhsjdfdfv",
+    },
+    {
+      name: "MacBook Air M2",
+      price: 95000,
+      imgSrc: img3,
+      id: "asdhsdbjabhsjdfdfv",
+    },
+    {
+      name: "MacBook Pro M1",
+      price: 120000,
+      imgSrc: img4,
+      id: "sdjfdlaajsdbhjabhsjdfdfv",
+    },
   ];
 
   const dispatch = useDispatch();

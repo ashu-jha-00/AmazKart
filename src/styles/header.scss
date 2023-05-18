@@ -9,8 +9,13 @@ nav {
   color: white;
 
   > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     > h2 {
       text-transform: uppercase;
+      margin: 1rem;
       // color: $primary;
       color: white;
       font-size: 2rem;
@@ -29,7 +34,7 @@ nav {
       &:hover {
         // opacity: 0.5;
         scale: 1.1;
-        // font-weight: 600; 
+        // font-weight: 600;
       }
       > p {
         position: absolute;
@@ -53,7 +58,7 @@ nav {
 }
 
 .underline a::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
